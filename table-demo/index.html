@@ -68,6 +68,14 @@
                     <td>3</td>
                 </tr>
                 <tr>
+                    <td>FatCow</td>
+                    <td>Unlimited</td>
+                    <td>$3.15/mo</td>
+                    <td>30 days</td>
+                    <td>50%</td>
+                    <td>3</td>
+                </tr>
+                <tr>
                     <td>HostGator</td>
                     <td>Unlimited</td>
                     <td>$3.71/mo</td>
@@ -75,7 +83,35 @@
                     <td>20%</td>
                     <td>4</td>
                 </tr>
+                <tr>
+                    <td>JustHost</td>
+                    <td>Unlimited</td>
+                    <td>$6.95/mo</td>
+                    <td>anytime</td>
+                    <td>3.35/mo*</td>
+                    <td>5</td>
+                </tr>
             </tbody>
+            <tfoot>
+                <tr>
+                    <!--
+                        one can merge cells on a table within a row
+                        to merge the cells use the cosplan="n" parameter on
+                            your <td> tag.
+                        you can merge upto the total number of columns
+                        you can have multiple merged columns as long as the 
+                            total of all merged cells does NOT exceed the total
+                            number of columns on your table
+                        example table with 6 columns
+                            <td colspan="5"></td>
+                            <td></td>
+                            <td colspan="2"></td>
+                    -->
+                    <td colspan="6">
+                        * limited to 3 months of service
+                    </td>
+                </tr>
+            </tfoot>
         </table>
     </body>
 </html>
