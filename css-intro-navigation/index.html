@@ -58,7 +58,7 @@
                                 affects ONLY the element tag that contains the specification.
                             </td>
                             <td>style="rule; [rule; ...]"</td>
-                            <td>style="color:red; width:50px;"</td>
+                            <td>&lt;p ="color:red; width:50px;"&gt;... &lt;/p&gt;</td>
                         </tr>
                         <tr>
                             <td>Embedded</td>
@@ -66,14 +66,18 @@
                                 this css affects all similar elements on the webpage where the css is 
                                 coded.
                             </td>
-                            <td>&lt;style&gt; selector{rule; [rule; ...]} [selector{rule; [rule; ...]} ...] &lt;/style&gt;</td>
-                            <td>&lt;style&gt; p {color:red; width:50px;} h1{font-style: italics} &lt;/style&gt;</td>
+                            <td>&lt;style&gt; <br> selector{rule; [rule; ...]} <br> [selector{rule; [rule; ...]} ...] <br> &lt;/style&gt;</td>
+                            <td>&lt;style&gt; <br> p {color:red; width:50px;} <br> h1{font-style: italics} <br> &lt;/style&gt;</td>
                         </tr>
                         <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
+                            <td>link (stylesheet)</td>
+                            <td>this is the preferred method of doing css. You place your css in a 
+                                separate physical file. This file can then be used on ANY web page 
+                                in your web site. Thi link to this file will be done in your &lt;head&gt; area. 
+                                The css in this file is similar to embedded EXCEPT there is no style tag
+                            </td>
+                            <td>selector{rule; [rule; ...]} <br> [selector{rule; [rule; ...]} ...]</td>
+                            <td>p {color:red; width:50px;} <br> h1{font-style: italics}</td>
                         </tr>
                     </tbody>
                 </table>
