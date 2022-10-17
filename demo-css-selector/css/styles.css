@@ -1,0 +1,32 @@
+/*
+different types of syntax for selectors
+
+element selector
+
+*/
+
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+/*
+
+multiple element selectors
+if you have the same rules for multiple element
+    selectors, you may group the selectors
+    as a comma separated list
+the group may be coded on one physical line or
+    multiple lines
+
+*/
+
+h1, h2,
+h3,
+h4,
+p
+{
+    margin: 0;
+    padding: 0;
+}
