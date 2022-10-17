@@ -65,5 +65,32 @@ this can be used to isolate a particular selector
 
 footer ul
 {
-    background-color: #ddd;
+    background-color: #550000;
+}
+
+footer
+{
+    padding: 40px;
+    background-color: #dedede;
+}
+
+/*
+
+child selectors
+
+a child selector is a set of element selectors
+    used in your html, follow one
+    after another
+
+the selector order is "parent" through "child"
+
+this can be used to isolate a particular selector
+    from other occurances of the same selector
+    on the page.
+
+*/
+
+main p
+{
+    font-style: italic ;
 }
