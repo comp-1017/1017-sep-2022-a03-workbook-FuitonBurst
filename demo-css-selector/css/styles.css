@@ -30,3 +30,40 @@ p
     margin: 0;
     padding: 0;
 }
+
+/*
+
+if you repeat the element selector in your css
+    file, any additional rules are combined with
+    previously  specified rules.
+if you re-code a previously specified rule, then
+    the new rule overrides the previous rule
+
+    "Last rule wins"
+
+*/
+
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #111;
+}
+
+/*
+
+descendant selectors
+
+a descendant selector is a set of element selectors
+    when used in your html, follow immediately, one
+    after another
+
+this can be used to isolate a particular selector
+    from other occurances of the same selector
+    on the page.
+
+*/
+
+footer ul
+{
+    background-color: #ddd;
+}
