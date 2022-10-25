@@ -8,3 +8,64 @@ body {
 	font-size: 100%;
 	line-height: 1.5;
 }
+
+/**********************************************************************
+	Typography (Module 3)
+	affects the styling of text
+**********************************************************************/
+h1, h2
+{
+	padding: 10px;
+	text-align: center;
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #747474;
+}
+
+/**********************************************************************
+	Layout
+	these rules will affect the physical positioning
+	of element they to which they are applied
+**********************************************************************/
+
+nav
+{
+	margin-top: 48px;
+	background-color: #ddd;
+}
+
+header, main
+{
+	height: 480px;
+	margin-top: 24px;
+	background-color: #ddd;
+}
+
+main
+{
+	height: 800px;
+}
+
+footer
+{
+	height: 150px;
+	margin: 24px 0 48px 0;
+	background-color: #ddd;
+}
+
+/**********************************************************************
+	page width = lm + lb + lp + content + rp + rb + rm
+	960 = 30 + 2 + 0 + content + 0 + 2 + 30
+	960  = 60 + 4 + 0 + content
+	960 - 60 - 4 - 0 = content
+	896 = content
+**********************************************************************/
+main section
+{
+	border: 2px solid black;
+	margin: 30px;
+	height: 200px;
+	background-color: white;
+	width: 896px;
+}
