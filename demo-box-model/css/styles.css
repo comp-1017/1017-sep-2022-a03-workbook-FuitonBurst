@@ -11,8 +11,10 @@ margin can be coded in various styles
 long hand: margin-top: size; margin-right: size; margin-bottom: size; margin-left: size;
 equal opposite sides: margin: tb-size rightleft-size;
 short hand unequal: margin top-size; right-size; bottom-size; left-size;
-border-width is made up to border-top, border-right, border-bottom.
+margin: size; all sides are equal
 *******************************************/
+
+
 
 .border-section
 {
