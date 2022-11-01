@@ -38,7 +38,7 @@ main
 .red-paint
 {
 	height: 300px;
-	width: 303px;
+	width: 302.666px;
 	background-color: red;
 	margin: 10px 0px 10px 10px;
 	border: 2px solid purple;
@@ -47,7 +47,7 @@ main
 .blue-paint
 {
 	height: 300px;
-	width: 303px;
+	width: 302.666px;
 	background-color: blue;
 	margin: 10px 0px 10px 10px;
 	border: 2px solid purple;
@@ -56,7 +56,7 @@ main
 .yellow-paint
 {
 	height: 300px;
-	width: 303px;
+	width: 302.666px;
 	background-color: yellow;
 	margin: 10px 0px 10px 10px;
 	border: 2px solid purple;
