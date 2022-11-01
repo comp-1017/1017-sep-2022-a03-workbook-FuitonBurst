@@ -21,3 +21,43 @@ h1 {
 
 /* YOUR STYLES */
 
+main
+{
+	background-color: lightgray;
+	display: flex;
+}
+
+/*
+	All 3 boxes are the same:
+	page-width = 3 * (lm + lb + lp + content + rp + rb + rm) + remainder
+	960 = 3 * (10 + 2 + 0 + content + 0 + 2 + 0) + 10
+	960 = 30 + 12 + 10 + 3content
+	908 = 3content
+	908/3 = content
+*/
+.red-paint
+{
+	height: 300px;
+	width: 303px;
+	background-color: red;
+	margin: 10px 0px 10px 10px;
+	border: 2px solid purple;
+}
+
+.blue-paint
+{
+	height: 300px;
+	width: 303px;
+	background-color: blue;
+	margin: 10px 0px 10px 10px;
+	border: 2px solid purple;
+}
+
+.yellow-paint
+{
+	height: 300px;
+	width: 303px;
+	background-color: yellow;
+	margin: 10px 0px 10px 10px;
+	border: 2px solid purple;
+}

@@ -98,7 +98,7 @@ page width is 960;
 
     our box are of an equal size
     page=width = n (columns) * (box) + remainder
-    960 = 2 * (lm + lb + lp + content _ rp + rb + rm) + remainder
+    960 = 2 * (lm + lb + lp + content + rp + rb + rm) + remainder
     960 = 2 (30 + 0 + 0 + content + 0 + 0 + 30) + 30
     960 = 60 + 30 + 2content
     870 = 2content
