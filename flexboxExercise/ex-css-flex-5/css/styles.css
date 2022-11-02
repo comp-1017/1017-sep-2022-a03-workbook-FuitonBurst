@@ -39,7 +39,7 @@ footer
 
 .top-left
 {
-    height: 150px;
+    height: 200px;
 	width: 276px;
 	background-color: white;
 	margin: 15px 0px 0px 15px;
@@ -58,7 +58,7 @@ footer
 
 .top-right
 {
-    height: 150px;
+    height: 200px;
 	width: 591px;
 	background-color: white;
 	margin: 15px 0px 0px 15px;
@@ -78,7 +78,7 @@ footer
 
 .middle-left
 {
-    height: 300px;
+    height: 400px;
 	width: 276px;
 	background-color: white;
 	margin: 15px 0px 0px 15px;
@@ -88,7 +88,7 @@ footer
 
 .middle-mid
 {
-    height: 300px;
+    height: 400px;
 	width: 276px;
 	background-color: white;
 	margin: 15px 0px 0px 15px;
@@ -98,7 +98,7 @@ footer
 
 .middle-right
 {
-    height: 300px;
+    height: 400px;
 	width: 276px;
 	background-color: white;
 	margin: 15px 0px 0px 15px;
@@ -116,7 +116,7 @@ footer
 
 .footer-box
 {
-    height: 200px;
+    height: 150px;
 	width: 906px;
 	background-color: white;
 	margin: 15px 0px 15px 15px;
