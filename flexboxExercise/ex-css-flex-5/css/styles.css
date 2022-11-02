@@ -25,12 +25,7 @@ main
 	background-color: lightgray;
 	display: flex;
     flex-wrap: wrap;
-}
-
-footer
-{
-    background-color: lightgray;
-	display: flex;
+    border: 2px solid black;
 }
 
 /*
@@ -40,26 +35,27 @@ footer
 .top-left
 {
     height: 200px;
-	width: 276px;
-	background-color: white;
-	margin: 15px 0px 0px 15px;
-	border: 2px solid black;
+    width: 274.667px;
+    background-color: white;
+    margin: 15px 0px 0px 15px;
+    border: 2px solid black;
     padding: 10px;
 }
 
 /*
 	Top-right: all the same
-    page-width = (lm + lb + lp + content + rp + rb + rm) + remainder + top-right
-    960 = (15 + 2 + 10 + content + 10 + 2 + 0) + 15 + (15 + 2 + 10 + 276 + 10 + 2 + 0)
-    960 = (20 + 15 + 4 + content) + 15 + 315
-    630 = 20 + 15 + 4 + content
-    591 = content
+    page-width = (lm + lb + lp + content + rp + rb + rm) + remainder + top-left
+    956 = (15 + 2 + 10 + content + 10 + 2 + 0) + 15 + (20 + 15 + 4 + (824/3))
+    956 = (20 + 15 + 4 + content) + 15 + (20 + 15 + 4 (824/3))
+    956 = content + 93 + (824/3)
+    863 - (824/3) = content
+    588.333 = content
 */
 
 .top-right
 {
     height: 200px;
-	width: 591px;
+	width: 588.333px;
 	background-color: white;
 	margin: 15px 0px 0px 15px;
 	border: 2px solid black;
@@ -69,55 +65,56 @@ footer
 /*
 	Middle 3 boxes: all the same
     page-width = 3 * (lm + lb + lp + content + rp + rb + rm) + remainder
-    960 = 3 (15 + 2 + 10 + content + 10 + 2 + 0) + 15
-    960 = 3(20 + 15 + 4 + content) + 15
-    960 = 60 + 60 + 12 + 3content
-    828 = 3content
-    276 = content
+    956 = 3(15 + 2 + 10 + content + 10 + 2 + 0) + 15
+    956 = 3(20 + 15 + 4 + content) + 15
+    956 = 60 + 60 + 12 + 3content
+    824 = 3content
+    274.667 = content
 */
 
 .middle-left
 {
     height: 400px;
-	width: 276px;
-	background-color: white;
-	margin: 15px 0px 0px 15px;
-	border: 2px solid black;
+    width: 274.667px;
+    background-color: white;
+    margin: 15px 0px 0px 15px;
+    border: 2px solid black;
     padding: 10px;
 }
 
 .middle-mid
 {
     height: 400px;
-	width: 276px;
-	background-color: white;
-	margin: 15px 0px 0px 15px;
-	border: 2px solid black;
+    width: 274.667px;
+    background-color: white;
+    margin: 15px 0px 0px 15px;
+    border: 2px solid black;
     padding: 10px;
 }
 
 .middle-right
 {
     height: 400px;
-	width: 276px;
-	background-color: white;
-	margin: 15px 0px 0px 15px;
-	border: 2px solid black;
+    width: 274.667px;
+    background-color: white;
+    margin: 15px 0px 0px 15px;
+    border: 2px solid black;
     padding: 10px;
 }
 
 /*
 	Footer box width
     page-width = (lm + lb + lp + content + rp + rb + rm) + remainder
-    960 = (15 + 2 + 10 + content + 10 + 2 + 0) + 15
-    960 = 30 + 4 + 20 + content
-    906 = content
+    956 = (15 + 2 + 10 + content + 10 + 2 + 0) + 15
+    956 = 30 + 20 + 4 + content
+    902 = content
+    
 */
 
 .footer-box
 {
     height: 150px;
-	width: 906px;
+	width: 902px;
 	background-color: white;
 	margin: 15px 0px 15px 15px;
 	border: 2px solid black;
