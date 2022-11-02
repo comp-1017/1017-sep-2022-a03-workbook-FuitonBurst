@@ -34,7 +34,7 @@ main
 
 .top-left
 {
-    height: 200px;
+    height: 150px;
     width: 274.667px;
     background-color: white;
     margin: 15px 0px 0px 15px;
@@ -54,7 +54,7 @@ main
 
 .top-right
 {
-    height: 200px;
+    height: 150px;
 	width: 588.333px;
 	background-color: white;
 	margin: 15px 0px 0px 15px;
@@ -74,7 +74,7 @@ main
 
 .middle-left
 {
-    height: 400px;
+    height: 300px;
     width: 274.667px;
     background-color: white;
     margin: 15px 0px 0px 15px;
@@ -84,7 +84,7 @@ main
 
 .middle-mid
 {
-    height: 400px;
+    height: 300px;
     width: 274.667px;
     background-color: white;
     margin: 15px 0px 0px 15px;
@@ -94,7 +94,7 @@ main
 
 .middle-right
 {
-    height: 400px;
+    height: 300px;
     width: 274.667px;
     background-color: white;
     margin: 15px 0px 0px 15px;
@@ -113,7 +113,7 @@ main
 
 .footer-box
 {
-    height: 150px;
+    height: 100px;
 	width: 902px;
 	background-color: white;
 	margin: 15px 0px 15px 15px;
