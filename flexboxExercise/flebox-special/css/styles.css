@@ -8,3 +8,69 @@ body {
 	font-size: 100%;
 	line-height: 1.5;
 }
+
+h1 {
+    font-weight: 600;
+    font-family: Helvetica, Verdana, sans-serif;
+    font-size: 36px;
+    margin: 30px 0;
+}
+
+main
+{
+	background-color: lightgray;
+	display: flex;
+	flex-wrap: wrap;
+    border: 2px solid black;
+}
+
+.left-box
+{
+	background-color: red;
+	width: 150px;
+	height: 600px;
+	margin: 10px 0 10px 10px;
+	border: 2px solid black;
+}
+
+/*
+	Measurement of left-box
+	total-width = (lm + lb + lp + content + rp + rb + rm)
+	tw = 10 + 2 + 0 + 150 + 0 + 2 + 0
+	tw = 164
+
+	total-height = (tm + tb + tp + height + bp + bb + bm)
+	th = 10 + 2 + 0 + 600 + 0 + 2 + 10
+	th = 614
+*/
+
+/*
+	Both boxes
+	page-width = (lm + lb + lp + content + rp + rb + rm) + remainder + left-box
+	956 = (10 + 2 + 0 + content + 0 + 2 + 0) + 10 + 164
+	956 = 14 + 10 + 164 + content
+	768 = content
+
+	page-height = 2(tm + tb + tp + height + bp + bb + bm) + remainder
+	624 = 2(10 + 2 + 0 + content + 0 + 2 + 0) + 10
+	624 = 20 + 8 + 2content + 10
+	586 = 2content
+	293 = content
+*/
+.top-right
+{
+	background-color: blue;
+	width: 768px;
+	height: 293px;
+	margin: 10px 0 0 10px;
+	border: 2px solid black;
+}
+
+.bottom-right
+{
+	background-color: green;
+	width: 768px;
+	height: 293px;
+	margin: 10px 0 0 10px;
+	border: 2px solid black;
+}
